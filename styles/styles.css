@@ -1,0 +1,42 @@
+/*
+Color scheme to match profile pic:
+Middle grey #B3A39C
+Green Smoke #A8B475
+Antique Brass/Tan #CB9468
+Dark Mocha Grey #5E4B3C 
+Border wall dark green #3A3C25
+Golden lighting #F9DAB0
+*/
+
+
+body {
+    background-color: #F9DAB0;
+    font-family: Raleway;
+}
+
+h2 {
+    margin: 30px;
+}
+
+.row {
+    background-color: #4da1dd;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin: 30px;
+}
+
+.item {
+    background-color: white;
+    display: inline-block;
+    white-space: normal;
+    max-width: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item img, div {
+    display: block;
+    margin: auto;
+    max-width: 95%;
+}
