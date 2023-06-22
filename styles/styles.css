@@ -10,7 +10,7 @@ Golden lighting #F9DAB0
 
 
 body {
-    background-color: #F9DAB0;
+    background-color: white;
     font-family: Raleway;
 }
 
@@ -19,7 +19,6 @@ h2 {
 }
 
 .row {
-    background-color: #4da1dd;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -27,7 +26,6 @@ h2 {
 }
 
 .item {
-    background-color: white;
     display: inline-block;
     white-space: normal;
     max-width: 25%;
