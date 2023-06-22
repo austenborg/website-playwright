@@ -8,6 +8,11 @@ Border wall dark green #3A3C25
 Golden lighting #F9DAB0
 */
 
+.coming-soon {
+    display: flex;
+    justify-content: center;
+}
+
 
 body {
     background-color: white;
