@@ -13,6 +13,10 @@ body {
     background-color: white;
     font-family: Raleway;
 }
+h1 {
+    display: flex;
+    justify-content: center;
+}
 h2 {
     margin: 30px;
 }
@@ -20,26 +24,28 @@ h2 {
 .row {
     overflow: auto;
     white-space: nowrap;
-    padding: 10px;
     margin: 30px;
 }
 .item {
     display: inline-block;
     white-space: normal;
-    max-width: 25%;
-    padding: 10px;
-    margin: 10px;
-}
-.item img, div {
-    display: block;
-    margin: auto;
-    max-width: 95%;
+    margin: 30px;
+    max-width: 20%;
 }
 .item img {
     object-fit: cover;
-    object-position: center;
-    /* height: 200px;
-    width: 200px; */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+.about img, .about-text {
+    object-fit: cover;
+    width: 50%;
+    padding: 5%;
 }
 
 .social-media {
@@ -51,6 +57,6 @@ h2 {
     margin: 40px;
 }
 .social-media img {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 }
