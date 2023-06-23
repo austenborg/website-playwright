@@ -23,10 +23,17 @@ h1 {
     justify-content: center;
 }
 h2 {
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
-.row {
+.row-news .item {
+    border: 2px solid #989898;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+.row, .row-news {
     overflow: auto;
     white-space: nowrap;
     margin: 30px;
@@ -64,4 +71,11 @@ h2 {
 .social-media img {
     width: 35px;
     height: 35px;
+}
+
+.coming-soon {
+    border: 2px solid #989898;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
