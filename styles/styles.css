@@ -15,7 +15,8 @@ Golden lighting #F9DAB0
 
 
 body {
-    background-color: white;
+    /* background-color: black; */
+    /* color: white; */
     font-family: Raleway;
 }
 h1 {
@@ -27,6 +28,10 @@ h2 {
     margin-left: 30px;
 }
 
+.section {
+    margin-top: 50px;
+}
+
 .row-news .item {
     border: 2px solid #989898;
     border-radius: 25px;
@@ -34,10 +39,17 @@ h2 {
     margin: 10px;
 }
 .row, .row-news {
+    /* background-color: #070b31; */
+    border-radius: 25px;
     overflow: auto;
     white-space: nowrap;
     margin: 30px;
 }
+.news-date {
+    float: right;
+    font-style: italic;
+}
+
 .item {
     display: inline-block;
     white-space: normal;
@@ -53,6 +65,9 @@ h2 {
 .about {
     display: flex;
     justify-content: center;
+    /* background-color: #A76F6F; */
+    border-radius: 25px;
+    margin: 30px;
 }
 .about img, .about-text {
     object-fit: cover;
