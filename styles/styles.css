@@ -53,23 +53,27 @@ a {
     font-style: italic;
 }
 
+.scroll-section {
+    overflow: auto;
+    margin: 30px;
+}
 .row {
     display: grid;
     grid-template-columns: repeat(11, 20%);
 }
 
-.scroll-section {
-    overflow: auto;
-    margin: 30px;
-}
-
 .col {
-    margin: 30px;
+    margin: 5px 30px 5px 30px;
 }
 .col img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.col-txt {
+    max-height: 200px;
+    min-height: 100px;
+    overflow: clip;
 }
 
 .more {
