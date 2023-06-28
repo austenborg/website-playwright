@@ -9,13 +9,20 @@ Golden lighting #F9DAB0
 background-color: #A76F6F;
 */
 
+body {
+    /* background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
 h1 {
-    display: flex;
-    justify-content: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 80px;
 }
 h2 {
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 a {
     text-decoration: underline;
@@ -24,6 +31,7 @@ a {
 
 .news {
     margin: 20px;
+    margin-top: 10px;
 }
 .news .col {
     border: 2px solid #989898;
@@ -47,7 +55,7 @@ a {
 }
 
 .col {
-    margin: 20px;
+    margin: 30px;
 }
 .col img {
     width: 100%;
@@ -62,7 +70,9 @@ a {
 }
 
 
-
+.about-text h3 {
+    margin-bottom: 50px;
+}
 .about {
     display: flex;
     justify-content: center;
