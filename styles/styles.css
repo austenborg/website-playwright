@@ -73,15 +73,16 @@ a {
     object-fit: cover;
 }
 .portf-title {
-    /* max-height: 100px;
-    min-height: 75px; */
-    /* margin-top: 5px;
-    margin-bottom: 5px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
     /* text-overflow: ellipsis; */
     /* white-space: nowrap; */
     /* overflow: hidden; */
 }
 .portf-descr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
     /* max-height: 200px;
     min-height: 100px; */
     /* overflow: clip; */
