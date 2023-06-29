@@ -39,11 +39,14 @@ a {
     margin: 30px;
 }
 
-.news {
+/* news section */
+.news-row {
+    display: grid;
+    grid-template-columns: repeat(6, 20%);
     margin: 20px;
     margin-top: 10px;
 }
-.news .col {
+.news-col {
     border: 2px solid #989898;
     border-radius: 25px;
     padding: 20px;
