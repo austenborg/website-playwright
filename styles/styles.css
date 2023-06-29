@@ -16,12 +16,10 @@ body {
     font-family: "Titillium Web", sans-serif;
     font-weight: 300;
 }
-
 h1, h2, h3 {
     font-family: "Titillium Web", sans-serif;
     font-weight: 700;
 }
-
 h1 {
     margin-top: 20px;
     margin-left: 20px;
@@ -34,6 +32,11 @@ h2 {
 a {
     text-decoration: underline;
     color: black;
+}
+
+.scroll-section {
+    overflow: auto;
+    margin: 30px;
 }
 
 .news {
@@ -53,35 +56,44 @@ a {
     font-style: italic;
 }
 
-.scroll-section {
-    overflow: auto;
-    margin: 30px;
-}
-.row {
+/* portfolio sections */
+.portf-row {
     display: grid;
     grid-template-columns: repeat(11, 20%);
 }
-
-.col {
-    margin: 5px 30px 5px 30px;
+.portf-col {
+    /* margin: 5px 30px 5px 30px; */
 }
-.col img {
+.portf-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.col-txt {
-    max-height: 200px;
-    min-height: 100px;
-    overflow: clip;
+.portf-title {
+    /* max-height: 100px;
+    min-height: 75px; */
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
 }
-
-.more {
+.portf-descr {
+    /* max-height: 200px;
+    min-height: 100px; */
+    /* overflow: clip; */
+}
+.portf-more {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.coming-soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .about-text h3 {
     margin-bottom: 50px;
@@ -110,12 +122,6 @@ a {
 .social-media img {
     width: 35px;
     height: 35px;
-}
-
-.coming-soon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .copyright {
