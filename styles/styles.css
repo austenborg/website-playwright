@@ -75,17 +75,10 @@ a {
 .portf-title {
     margin-top: 5px;
     margin-bottom: 5px;
-    /* text-overflow: ellipsis; */
-    /* white-space: nowrap; */
-    /* overflow: hidden; */
 }
 .portf-descr {
     margin-top: 5px;
     margin-bottom: 5px;
-    
-    /* max-height: 200px;
-    min-height: 100px; */
-    /* overflow: clip; */
 }
 .portf-more {
     display: flex;
