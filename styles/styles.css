@@ -34,18 +34,13 @@ a {
     color: black;
 }
 
-.scroll-section {
-    overflow-x: auto;
-    overflow-y: hidden;
-    margin: 30px;
-}
-
 /* news section */
 .news-row {
     display: grid;
     grid-template-columns: repeat(6, 20%);
-    margin: 20px;
-    margin-top: 10px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 10px;
 }
 .news-col {
     border: 2px solid #989898;
@@ -61,6 +56,11 @@ a {
 }
 
 /* portfolio sections */
+.scroll-section {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 10px;
+}
 .portf-row {
     display: grid;
     grid-template-columns: repeat(11, 20%);
@@ -73,11 +73,7 @@ a {
     height: 100%;
     object-fit: cover;
 }
-.portf-title {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.portf-descr {
+.portf-title, .port-descr {
     margin-top: 5px;
     margin-bottom: 5px;
 }
