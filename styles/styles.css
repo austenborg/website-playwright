@@ -57,25 +57,25 @@ a {
 
 /* portfolio sections */
 .scroll-section {
+    margin: 20px;
+    display: grid;
+    row-gap: 5px;
+    column-gap: 40px;
+    grid-template-columns: repeat(11, 20%);
+    grid-template-rows: 325px 3rem 4rem;
     overflow-x: auto;
     overflow-y: hidden;
-    margin: 10px;
 }
-.portf-row {
-    display: grid;
-    grid-template-columns: repeat(11, 20%);
-}
-.portf-col {
-    margin: 5px 30px 5px 30px;
-}
-.portf-img img {
+.scroll-section img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.portf-title, .port-descr {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.portf-title, .portf-descr {
+    display: flex;
+    overflow: hidden;
+    /* white-space: normal;
+    text-overflow: ellipsis; */
 }
 .portf-more {
     display: flex;
