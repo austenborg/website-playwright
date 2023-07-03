@@ -62,7 +62,7 @@ a {
     row-gap: 5px;
     column-gap: 40px;
     grid-template-columns: repeat(11, 20%);
-    grid-template-rows: 325px 3rem 4rem;
+    grid-template-rows: 350px 5rem 5rem;
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -74,8 +74,8 @@ a {
 .portf-title, .portf-descr {
     display: flex;
     overflow: hidden;
-    /* white-space: normal;
-    text-overflow: ellipsis; */
+    white-space: normal;
+    text-overflow: ellipsis;
 }
 .portf-more {
     display: flex;
