@@ -103,6 +103,9 @@ a {
     justify-content: center;
     align-items: center;
 }
+.foreign-lang {
+    font-style: italic;
+}
 
 .coming-soon {
     display: flex;
