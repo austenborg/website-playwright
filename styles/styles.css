@@ -18,6 +18,7 @@ body {
     background-size: cover; */
     font-family: "Titillium Web", sans-serif;
     font-weight: 300;
+    margin: 0;
 }
 h1, h2, h3 {
     font-family: "Titillium Web", sans-serif;
@@ -32,29 +33,37 @@ a {
     color: black;
 }
 
-.name {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 80px;
+.top {
+    background-color: black;
+    padding: 50px;
 }
 
-.navbar {
-    overflow: hidden;
+.header {
     position: fixed;
-    top: 0;
     width: 100%;
-  }
-.navbar a {
-    background-color: white;
+    background-color: black;
+}
+.header-section {
+    height: 100px;
+    width: 50%;
+}
+.name {
+    float: left;
+    color: white;
+}
+.navbar {
     float: right;
-    text-align: center;
-    padding: 20px;
+}
+.navbar a {
+    float: right;
+    /* text-align: center;
+    padding: 20px; */
+    color: white;
     text-decoration: none;
-    font-size: 18px;
 }
 .navbar a:hover {
-    background-color: #333;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .news-row {
